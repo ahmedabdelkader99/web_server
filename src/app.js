@@ -4,7 +4,7 @@ const hbs = require("hbs");
 const geocode = require("./utils/geocode");
 const forcaste = require("./utils/forcaste");
 
-const port =process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 // حته انه ياخد اوامر من الموقع مش من الكوماند بتتم علي مرحلتين
 //+ حته ربط البروجيكت ب ملف html
